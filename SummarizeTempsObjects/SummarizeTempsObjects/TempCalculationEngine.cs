@@ -38,7 +38,7 @@ namespace SummarizeTempsObjects
             //loop through all of the list items
             int tempsAboveThreshold = 0;
 
-            foreach (var temp in _temperatures)
+            foreach (int temp in _temperatures)
             {
                 //add counter for above temp
                 if (temp > threshold)
